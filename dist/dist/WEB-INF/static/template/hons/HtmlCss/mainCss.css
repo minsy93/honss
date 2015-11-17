@@ -1,0 +1,167 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 {
+	font-family: Microsoft YaHei,'宋体',Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #E7E7E8;
+	color: #000;
+}
+#page {
+	margin: 0px auto;
+	border-radius: .25em;
+	max-width: 980px;
+	background: #fff;
+}
+.container h1{
+	margin-top:0px;
+	margin-bottom:50px;
+	font-size:25px;
+	color:#333;
+}
+
+.container{
+	max-width: 782.28px;
+	margin:0 auto;
+	padding: 45px 0px 52px 0px;
+}
+hr{
+	border-bottom: 1px solid #dedede;
+	margin:0px;
+}
+.hrcontainer{
+	padding:0px;
+}
+.navbar-default {
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #fff;
+	border:0px solid #fff;
+}
+.navbar-default img{
+	max-height:26px;
+}
+.navbar-default .navbar-nav{
+	font-size:14px;
+}
+.navbar-default .navbar-nav>li>a,.news a{
+	background-color: #fff;
+	color:#555555;
+}
+h4 a{
+	color:#333;
+}
+.navbar-header .navbar-brand {
+	margin-left: 0px;
+	float: left;
+}
+
+#bs-example-navbar-collapse-1 {
+	float: right;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #2495cd;
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover,h4 a:hover,.news a:hover{
+	color: #2495cd;
+	text-decoration:none;
+}
+
+.pager li>a,.pager li>span{
+	display: inline-block;
+	padding: 6px 12px;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	font-size:14px;
+	color:#333;
+	margin-top:20px;
+}
+
+#bs-example-navbar-collapse-1{
+	padding-right:0px;
+}
+.navbar-default .navbar-nav>li>a{
+	border-right: 1px solid #dedede;
+}
+
+@media ( max-width : 768px) {
+	#bs-example-navbar-collapse-1{
+		margin-left:0px;
+	}
+	.container {
+		width:100%;
+	}
+	#bs-example-navbar-collapse-1 {
+		float: left;
+	}
+	.navHeader{
+		padding:0px;
+	}
+	.navbar-default .navbar-collapse{
+		border:0;
+	}
+	.navbarContainer{
+		padding:20px 0px 31px 0px;
+	}
+	#bs-example-navbar-collapse-1{
+	padding-right:15px;
+    }
+    .navbar-default .navbar-nav>li>a{
+		border-right: 0px solid #dedede;
+	}
+	
+	.pager li>a{
+	    padding: 5px 10px;
+	}
+}
+.info{
+	margin-bottom: .15em;
+	color : #888888;
+	margin-top : 14px;
+	font-size:12px;
+}
+.navbutton{
+	float:left;
+}
+.navbutton a{
+	margin-top:0px;
+}
+.container h1{
+	margin-top:48px;
+}
+
+.container p{
+	font-size : 12px;
+	color:#555;
+	line-height:22px;
+	letter-spacing:1px;
+	margin:0px;
+}
+
+.container-fluid p{
+	font-size : 12px;
+	color:#555;
+	line-height:22px;
+	letter-spacing:1px;
+}
+.container h4, h5, h6{
+	line-height:23px;
+	letter-spacing:1px;
+}
+
+
+
+.container h4 {
+	font-size : 14px;
+	color:#333;
+	margin-top:20px;
+	margin-bottom:14px;
+}
+.info time{
+	font-size:12px;
+	color:#888;
+}
+

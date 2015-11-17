@@ -1,0 +1,68 @@
+.content-top h1 {
+		margin-bottom: 30px;
+	}
+
+	.Img-content {
+		margin-top: 30px;
+	}
+	.Img-content .col-md-4{
+	padding-left:0;
+	}
+	.addInfo {
+		margin-top: 80px;
+		margin-left: 10px;
+	}
+
+	.pagination__item {
+		list-style-image: url(image/btn1.png);
+	}
+
+	.Baidumap {
+		width: 485px;
+		height: 320px;
+		border: #ccc solid 1px;
+	}
+
+	.footer {
+		margin-top: 90px;
+	}
+
+	@media ( max-width : 768px) {
+		.row {
+			margin: 0px;
+		}
+		.content-top h1 {
+			margin-left: 15px;
+		}
+		.Baidumap {
+			width: 100%;
+		}
+		.footer {
+			margin-top: 60px;
+		}
+		.addInfo {
+		margin-left: 15px;
+	}
+	}
+
+	html,body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.iw_poi_title {
+		color: #CC5522;
+		font-size: 14px;
+		font-weight: bold;
+		overflow: hidden;
+		padding-right: 13px;
+		white-space: nowrap
+	}
+
+	.iw_poi_content {
+		font: 12px arial, sans-serif;
+		overflow: visible;
+		padding-top: 4px;
+		white-space: -moz-pre-wrap;
+		word-wrap: break-word
+	}

@@ -1,0 +1,25 @@
+.list-group>a{
+        height: 28px;
+        padding-top: 18px;
+    }
+    .content{
+    	margin-bottom:50px;
+    }
+    .content #sidebar a:hover{
+        text-decoration: underline;
+        background-color: #03F;
+    }
+.news-summary .pc-third {
+	float:right;
+    margin-top: 0px;
+	}
+	.news-summary .pc-frist {
+	float:left;
+	}
+	.news-summary .second {
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #555555;
+    font-size: 0.75em;
+}

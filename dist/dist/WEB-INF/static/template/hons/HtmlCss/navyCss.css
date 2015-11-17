@@ -1,0 +1,28 @@
+
+.pager li>a,.pager li>span{
+	display: inline-block;
+	padding: 5px 30px;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	color: #000;
+}
+
+.pager .previous a {
+	margin-top: 16px;
+}
+
+@media ( max-width : 768px) {
+	.container {
+		padding: 0px 15px;
+	}
+	#bs-example-navbar-collapse-1 {
+		float: left;
+	}
+	.container-fluid {
+		margin: 0px;
+	}
+	.navbar-default .navbar-collapse{
+		border:0;
+	}
+}

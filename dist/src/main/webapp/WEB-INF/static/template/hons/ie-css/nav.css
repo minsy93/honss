@@ -1,0 +1,91 @@
+.index-container{
+	padding: 36px 0 15px 0;
+	margin:0 auto;
+}
+.head-line{
+	background-color:#000;
+	height:5px;
+}
+.head-icon{
+	height:20px;
+	width:84px;
+	color:#fff;
+	font-size:11px;
+	background-image:url("../image/btn_home_top.png");
+	padding-left:14.5px;
+	line-height:20px;
+	float:right;
+}
+.navbar{
+	border: 0 solid #fff;
+	margin-bottom: 0;
+	background-color:#fff;
+}
+#bs-example-navbar-collapse-1{
+	padding: 0;
+	z-index:9000;
+	background-color:#fff;
+}
+#bs-example-navbar-collapse-1 .navbar-nav{ 
+    float:right;
+    margin-left:30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #03F;
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #333;
+	text-decoration:none;
+}
+.navbar>.container .navbar-brand{
+	margin-left:0px;
+	padding-top:19px;
+}
+.index-container-icon{
+	height:20px;
+	position:absolute;
+	z-index:9999;
+	top:0;
+}
+
+.index-container{
+		width: 980px;
+	}
+	.navbar-brand img{
+		position: absolute;
+		margin:-10px;
+	}
+	/*returnTop*/  
+p#back-to-top{  
+    position:fixed;  
+    display:none;  
+    bottom:182px;  
+    right:20px; 
+    z-index:9999;
+}  
+p#back-to-top a{  
+    text-align:center;  
+    text-decoration:none;  
+    display:block;  
+    width:44px;
+	color:#333;
+}   
+p#back-to-top a span{  
+    background:transparent url("../image/icon_return_top.png") no-repeat;  
+    border-radius:6px;  
+    display:block;  
+    height:44px;  
+    width:44px;  
+    margin-bottom:5px;   
+}  
+#back-to-top a:hover span{  
+    background:transparent url("../image/icon_return_top.png") no-repeat;  
+}
+.pager{
+	text-align:initial;
+}
+#back-to-top{
+	margin:0 0 10px;
+}
+	

@@ -1,0 +1,258 @@
+body,button,input,select,textarea,h1,h2,h3,h4,h5,h6 {
+	font-family: Microsoft YaHei,'ËÎÌו', Tahoma, Helvetica, Arial,
+		"\5b8b\4f53", sans-serif;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E7E7E8;
+	overflow-x: hidden;
+}
+
+.news-container a {
+	color: #333;
+}
+
+.news-container a:hover {
+	color: #333;
+}
+
+.textbox {
+	z-index: 9999;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	border-bottom: 4px solid #fff;
+	border-top: 4px solid #fff;
+}
+
+.textbox .textp1 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.textbox .textp2 {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.panel {
+	border: 0 solid #fff;
+}
+
+.news-container .panel-body {
+	padding: 20px 20px 30px 20px;
+}
+
+.news-container .panel-body img {
+	margin-bottom: 10px;
+}
+
+.news-container .panel-body h4 {
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.news-container .panel-body p {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 0px;
+}
+
+.news-container p.info {
+	margin-bottom: 10px;
+	color: #999;
+}
+
+.news-div {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.news-container h1 {
+	float: left;
+	margin: 0;
+}
+
+.more-news {
+	display: block;
+	float: right;
+	padding-top: 15px;
+}
+
+.news-container .col-md-4 {
+	padding: 0 10px 0 11px;
+}
+
+.news-container .row {
+	margin: 0 -10px 0 -11px;
+}
+
+.footer .container {
+	margin-top: 20px;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+figure.effect-julia {
+	background: #2f3238;
+}
+
+.news-container .panel-default:hover a {
+	text-decoration: underline;
+}
+
+.index-container,.news-container,.series-container {
+	width: 980px;
+}
+
+.series-container,.news-container {
+	padding: 0;
+}
+
+.series-container {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.index-carousel-phone {
+	display: none;
+}
+
+.series-container .panel-default:hover {
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+.series-container .series-big .panel {
+	height: 420px;
+}
+
+.series-container .series-big .effect-julia {
+	height: 400px;
+}
+
+.series-container .panel-body {
+	padding: 10px;
+}
+
+.series-container .row .col-md-12 {
+	padding: 0;
+}
+
+.series-container .series-big {
+	padding-right: 10px;
+	padding-left: 0;
+}
+
+.series-container .series-small .panel {
+	height: 200px;
+}
+
+.series-container .series-small .effect-julia {
+	height: 180px;
+}
+
+.series-container .series-small {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.series-container .panel {
+	position: relative;
+}
+
+.series-container .series-textbox-big {
+	position: absolute;
+	bottom: 15.238%;
+	width:100%;
+	padding-left:10px;
+}
+
+.series-container .series-textbox-big .series-textp1-big {
+	color: #fff;
+	margin: 0px;
+	font-size: 36px;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.series-container .series-textbox-big .series-textp2-big {
+	margin: 0px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #666;
+	padding: 18px;
+	width: 59.0833333%
+}
+
+.series-container .series-textbox-small {
+	position: absolute;
+	bottom: 15.238%;
+	width:100%;
+	padding-left:10px;
+}
+
+.series-container .series-textbox-small .series-textp1-small {
+	color: #fff;
+	margin: 0px;
+	font-size: 30px;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.series-container .series-textbox-small .series-textp2-small {
+	margin: 0px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #666;
+	padding: 10px;
+	width: 56.0833333%
+}
+
+.series-container .series-textbox-small .series-textp1-small-bottom {
+	color: #fff;
+	margin: 0px;
+	font-size: 30px;
+	font-style: italic;
+	padding-left: 23.958333%
+}
+
+.series-container .series-textbox-small .series-textp2-small-bottom {
+	margin: 0px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #666;
+	padding: 10px;
+	width: 52.0833333%
+}
+
+.series-container .row {
+	width: 100%;
+	margin: 0 auto;
+}

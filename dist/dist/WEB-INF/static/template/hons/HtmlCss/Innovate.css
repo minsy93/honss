@@ -1,0 +1,42 @@
+.innovate h2{
+            font-size:30px;
+        }
+        .innovate h4{
+            color:#555;
+         }
+
+        .pager{
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .content-top h1{
+			margin-bottom:40px;
+		}
+		 @media ( max-width : 768px){
+		     
+			.row{
+				margin:0px;
+			}
+			.content-top h1,.textTitle,.content-margin-top h1,.pager{
+				margin-left:15px;
+			}
+			.text h4,.text_fb p{
+				margin:0px 15px;
+			}
+			.content-Img{
+				
+				margin-left:15px;
+				margin-right:15px;
+			}
+			.Img-content .col-md-4{
+	            margin-bottom:20px;
+    	    }
+    	    
+			
+			.content-top .text h4{
+		         font-size:18px;
+		         margin-left:0px;
+		     }
+		     
+		    
+		}

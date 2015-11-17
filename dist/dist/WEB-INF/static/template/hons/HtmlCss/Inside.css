@@ -1,0 +1,15 @@
+@media ( max-width : 768px){
+			.row{
+				margin:0px;
+			}
+			.content-top h1,.textTitle,.content-margin-top h1,.pager{
+				margin-left:15px;
+			}
+			.text h4,.text_fb p{
+				margin:0px 15px;
+			}
+			.content-Img{
+				max-width:345px;
+				margin-left:15px;
+			}
+		}
